@@ -1,0 +1,48 @@
+div{
+    background-color: #eee8e8;
+    border: 3px solid #080707;
+    width: 150px;
+    height: 250px;
+    left: 200px;
+    top: 100px;
+    position: absolute;
+     
+}
+.d1{
+    z-index: 10;
+   
+}
+#d1{
+    z-index: 9;
+}
+.d2{
+    color: red;
+    z-index: 8;
+}
+#d2{
+    COLOR:red;
+    z-index: 7;
+}
+div{
+    position: absolute;
+    
+    transform: rotate(20DEG); 
+}
+div+div{
+    position: absolute;
+    
+    transform: rotate(-20DEG);
+}
+div+div+div{
+    position: absolute;
+    transform: rotate(-50DEG);
+   
+}
+div+div+div+div{
+    position: absolute;
+    transform: rotate(-70DEG);
+    
+}
+body{
+    background-color: rgb(2, 92, 2);
+}
